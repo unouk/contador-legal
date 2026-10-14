@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contador</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #1f2328; --bg: #ffffff; --muted: #59636e; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #9198a1; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+    main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
+    p.muted { color: var(--muted); font-size: 15px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Contador</h1>
+    <p>Contador es una aplicación personal de finanzas. La hizo y la usa una sola persona: no tiene registro ni cuentas para nadie más.</p>
+    <p>Corre en un servidor propio, sin acceso desde internet. Con permiso de solo lectura, lee el Gmail de su dueño para registrar los avisos de sus bancos y los comprobantes de sus compras.</p>
+    <p><a href="privacidad.html">Política de privacidad</a></p>
+    <p class="muted">Esta página existe porque Google la pide para autorizar la lectura del correo.</p>
+  </main>
+</body>
+</html>
